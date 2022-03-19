@@ -1,2 +1,3 @@
 # Praktikum-Pemrograman-Web-II
-Nama: Charles Phandurand
+Nama : Charles Phandurand
+Nim  : 2010817110006

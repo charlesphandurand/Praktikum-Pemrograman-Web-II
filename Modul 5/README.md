@@ -1,6 +1,6 @@
 # Keterangan
 
-1. Buka `http://localhost/phpmyadmin`
+1. Nyalakan XAMPP (Apache - MySQL) dan Buka `http://localhost/phpmyadmin`
 2. Pilih menu `baru`
 3. Beri nama `prak501`, lalu klik `buat`
 4. Pilih menu `impor`

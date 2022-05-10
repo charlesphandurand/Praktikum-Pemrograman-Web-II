@@ -28,7 +28,6 @@ function insert($data, $table)
   return mysqli_query($GLOBALS['connect'], $insert);
 }
 
-
 function update($data, $table, $where, $struktur)
 {
   foreach ($data as $coloum => $value) {

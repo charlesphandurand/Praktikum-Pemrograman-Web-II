@@ -30,14 +30,6 @@ if (isset($_POST['edit'])) {
 }
 
 if (isset($_POST['kembali'])) {
-	// if ($data != null) {
-	// 	echo "<script>confirm('Buang perubahan?')</script>";
-	// 	if ('<script>confirm("Buang perubahan?")</script> == true') {
-	// 		echo "a";
-	// 	} else {
-	// 		header("location:Member.php");
-	// 	}
-	// } else {header("location:Member.php");}
 	header("location:Member.php");
 }
 

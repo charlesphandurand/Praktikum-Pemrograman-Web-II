@@ -65,9 +65,7 @@ if (isset($_POST['kembali'])) {
 						</div>
 						<div class="mb-3">
 							<label class="form-label">Pilih ID Member</label>
-							<?php $default_member = $data['id_member']; ?>
 							<select class="form-select form-control" id="id_member" name="id_member">
-								<option value='<?php echo $default_member; ?>' selected disabled hidden><?php echo $default_member; ?></option>
 								<?php
 								$result = selectalldata("member");
 								while ($row = mysqli_fetch_array($result)) {
@@ -78,9 +76,7 @@ if (isset($_POST['kembali'])) {
 						</div>
 						<div class="mb-3">
 							<label class="form-label">Pilih ID Buku</label>
-							<?php $default_buku = $data['id_buku']; ?>
 							<select class="form-select form-control" id="id_buku" name="id_buku">
-								<option value='<?php echo $default_buku; ?>' selected disabled hidden><?php echo $default_buku; ?></option>
 								<?php
 								$result = selectalldata("buku");
 								while ($row = mysqli_fetch_array($result)) {
@@ -117,7 +113,7 @@ if (isset($_POST['kembali'])) {
 						</div>
 						<div class="mb-3">
 							<label class="form-label">Pilih ID Member</label>
-							<select class="form-select form-control" id="id_member" name="id_member">
+							<select class="form-select form-control" id="id_member" name="id_member" required>
 								<option value="" selected disabled hidden>--pilih member--</option>
 								<?php
 								$result = selectalldata("member");
@@ -129,7 +125,7 @@ if (isset($_POST['kembali'])) {
 						</div>
 						<div class="mb-3">
 							<label class="form-label">Pilih ID Buku</label>
-							<select class="form-select form-control" id="id_buku" name="id_buku">
+							<select class="form-select form-control" id="id_buku" name="id_buku" required>
 								<option value="" selected disabled hidden>--pilih buku--</option>
 								<?php
 								$result = selectalldata("buku");

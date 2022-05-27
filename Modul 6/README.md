@@ -1,5 +1,7 @@
 # Keterangan
 
+Link Youtube DEMO: https://youtu.be/r3lTnULVXlU
+
 1. Nyalakan XAMPP (Apache - MySQL) dan buka `http://localhost/phpmyadmin`
 2. Pilih menu `baru` untuk membuat database baru
 3. Beri nama database `prak601`, lalu klik `buat`
